@@ -1,105 +1,35 @@
-body{
-    margin: 0;
+
+.inf-topic{
+    display: flex;
 }
-img{
-    margin-left: 20px;
-    width: 7%;
-    height: 7%;
-    color: crimson;
+.name{
+    margin-bottom: -10px;
 }
-.container{
-    margin: 0 50px;
+.text{
+    font-style: inherit;
 }
-.head{
-    background-image: url(bg.jpg);
-    background-size: cover;
-    height: 100vh;
-    filter: brightness(80%);
-    background-repeat: no-repeat;
+.name{
+    margin-top: -30px;
 }
-.navigation-panel{
-    color: white;
+.inf-subtopicleft {
+    text-align: left;
+    flex-grow: 1;
+    margin-top: -30px;
 }
-.header-line{
-        margin: 0 5px;
-        padding-top: 20px;
-        display: flex;
-        align-items: center;
-        background: black;
+
+.inf-subtopiccenter {
+    text-align: center;
+    flex-grow: 2;
+    margin-right: 100px;
+    margin-top: -30px;
 }
-.Main-menu{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 20px;
-    margin-right: 20px;
-    border-right: 1px solid white;
-    padding-right: 20px;
-    font-family: 'Montserrat', sans-serif;
+.experience{
+    display: flex;
 }
-.Main-menu:hover{
-    color: crimson;
-}
-.Prod{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    margin-right: 20px;
-    border-right: 1px solid white;
-    padding-right: 20px;
-}
-.Prod:hover{
-    color: crimson;
-}
-.Tg{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 20px;
-    margin-right: 40px;
-    font-family: 'Montserrat', sans-serif;
-}
-.Tg:hover{
-    color: crimson;
-}
-.num{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-.num:hover{
-    color: crimson;
-}
-.title, .title2 {
-    font-size: 50px;
-    display: inline-block;
-    margin-left: 15px;
-}
-.title{
-    color: red;
-}
-.title2{
-    color: white;
-}
-.main{
- text-align: center;
-}
-.low-title, .low-subtitle{
-    text-align: right;
-    color: whitesmoke;
-    font-size: 40px;
-    font-weight: bold;
-    font-style: italic;
-    font-family: 'Montserrat', sans-serif;
-}
-.hello-message{
-    position: relative;
+.form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 10px;
 }

@@ -73,6 +73,7 @@
       <workItem from="1680260233717" duration="3261000" />
       <workItem from="1680266977597" duration="6688000" />
       <workItem from="1680336965947" duration="18425000" />
+      <workItem from="1681124311023" duration="12415000" />
     </task>
     <task id="LOCAL-00001" summary="/">
       <created>1680266761301</created>
@@ -131,7 +132,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
